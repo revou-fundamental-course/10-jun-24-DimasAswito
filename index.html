@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Konversi Suhu</h1>
+        <div class="input-group">
+            <label for="celsius">Celsius (°C):</label>
+            <input type="number" id="celsius" placeholder="Masukkan suhu Celsius">
+        </div>
+        <div class="btn-group">
+            <button id="convert">Konversi</button>
+            <button id="reset">Reset</button>
+            <button id="reverse">Reverse</button>
+        </div>
+        <div class="input-group">
+            <label for="fahrenheit">Fahrenheit (°F):</label>
+            <input type="number" id="fahrenheit" disabled>
+        </div>
+        <div class="formula">
+            <p id="formula-text"></p>
+        </div>
+
+
+          <h2>Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h2>
+    
+          <p>
+            Suhu <span class="s">S</span> dalam derajat Fahrenheit (&deg;F) sama
+            dengan suhu <span class="s">S</span> dalam derajat Celcius(&deg;C)
+            ...
+          </p>
+          <p>
+            <span class="s">S</span><sub>(&deg;F)</sub> = (<span class="s"
+              >S</span
+            ><sub>(&deg;C)</sub> x 1.8) + 32
+          </p>
+          <p>
+            <span class="s">S</span><sub>(&deg;C)</sub> = (<span class="s"
+              >S</span
+            ><sub>(&deg;F)</sub> - 32) / 1.8
+          </p>
+
+    </div>
+<!-- jangan di copas ya temen temen, gabaik -->
+    <footer>
+      <p>&copy; Dimas Aswito</p>
+  </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
